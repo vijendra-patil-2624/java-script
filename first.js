@@ -1,26 +1,65 @@
-/* let num=prompt("Enter student marks out of 100:");
-if(num>=50&&num<60){
-    console.log("student pass with grade D",);
+/* var abc=22
+let num=25
+const name="vijay"
+  */
+ var num = 20        //is function or Global  scoped variable
+ //let mynum = 55        // is block scoped variable
+ const con = 22      // is block scoped variable
+
+/* if(true){
+    
+    let mynum = 23
+    console.log(mynum)
+    mynum = 44
+    console.log(mynum)
 }
-else if(num>=60&&num<70){
-    console.log("student pass with grade C");
+
+if(true){
+    console.log(mynum)
 }
-else if(num>=70&&num<90){
-    console.log("student pass with grade B");
-}
-else if(num>=90&&num<=100){
-    console.log("studnet pass with grade A")
-}
-else{
-    console.log("student is Failed!!");
-}
+
+console.log(mynum)
+
+console.log(typeof window)
  */
 
-let sum=0
-let num=prompt("entere a number");
-for(let i=num; i>=1;i--){
-    
-    sum=sum+Number(i);
 
+/* console.log(mynum)
+
+if(true){
+    var mynum = 20
+    console.log(mynum)
 }
-console.log("sum of",num,"number is:",sum);
+var mynum = 40
+console.log(mynum)
+ */
+//console.log(con)
+
+/* function myfun(){
+    var num = 10
+    console.log(num)
+}
+
+myfun()
+
+console.log(num) */
+
+function myfun(){
+    var num = 10
+    console.log(num)
+    if(true){
+        var num = 40
+        console.log(num)
+    }
+    console.log(num)
+}
+
+myfun()
+
+console.log(num)
+
+ 
+
+
+
+ 
