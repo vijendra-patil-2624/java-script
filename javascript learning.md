@@ -35,7 +35,7 @@ there are two  types of data types in js
 
 
 
-4. Arrays
+4. Arrays      ----- 
 
 
 
@@ -45,7 +45,7 @@ there are two  types of data types in js
 5. Objects 
    
    syntax --------- 
-   let variablename {
+   let variablename = {
       key : value,
    }
 
@@ -66,3 +66,6 @@ console.log(myobj.age)
     age : 20,
 }
 console.log(myobj["name"])
+
+3. add properties in object 
+     objectname.property : value;
