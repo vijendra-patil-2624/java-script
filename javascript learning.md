@@ -37,6 +37,16 @@ there are two  types of data types in js
 
 4. Arrays      ----- 
 
+     let arrayname = [value1,value2,value3,value4]  in js they not declered array size
+     
+     arrayname.pop() ---it is remove one last value in an array
+     arrayname.shift() --- this function is use to remove first value in an array
+
+     arrayname.unshift(value1,value2,value3) ---- this function is used to add values in an array
+     arrayname.push() ------ this function is push the value in last in an array
+
+     
+
 
 
 
@@ -69,3 +79,5 @@ console.log(myobj["name"])
 
 3. add properties in object 
      objectname.property : value;
+
+

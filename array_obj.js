@@ -6,6 +6,7 @@ frutes[0] = "ananas"
 frutes[4] = "strobarry"
 
 console.log(frutes)  
+
 let deleted = frutes.pop()
 console.log(deleted)
 
@@ -18,7 +19,7 @@ frutes.unshift("vijay","sudeep")
 console.log(frutes)
 frutes.push("pramod")
 console.log(frutes)
-
+ 
 
 
 /* let student = {
