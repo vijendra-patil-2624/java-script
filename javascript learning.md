@@ -45,39 +45,67 @@ there are two  types of data types in js
      arrayname.unshift(value1,value2,value3) ---- this function is used to add values in an array
      arrayname.push() ------ this function is push the value in last in an array
 
+     Important methods 
+     1. .map(callback) ---- 
+     2. .filter(callback) 
+     3. .find()
+     4. .join()
+
+
      
 
-
-
-
-
-
-5. Objects 
+5. Objects ----an object is a way to store related data together using key-value pairs.
    
    syntax --------- 
    let variablename = {
       key : value,
    }
 
+   we have 2 types the access the  object properties
+     1. dot (.) property
 
-we have 2 types the access the  object properties
-1. dot (.) property
+     eg : let myobj = {
+          name : "vijay",
+          age : 20,
+     }
+     console.log(myobj.age)
 
-eg : let myobj = {
-    name : "vijay",
-    age : 20,
-}
-console.log(myobj.age)
+     2. square bracket property
 
-2. square bracket property
+      eg : et myobj = {
+          name : "vijay",
+          age : 20,
+     }
+     console.log(myobj["name"])
 
- eg : et myobj = {
-    name : "vijay",
-    age : 20,
-}
-console.log(myobj["name"])
+     3. add properties in object 
+          objectname.property = value;
 
-3. add properties in object 
-     objectname.property : value;
+     4. delete property in an object
 
+          delete objname.propertyname or key;
+          delete objname[propertyname];
+     
+     Object methods
+     1. Object.keys(objname)  ------- this will return array of key's of an object
+     2. Object.values()     --------this will return array of values 
+     3. Object.entries()   ------- this will return array of objects
+     4. Object.frise()    -------- this will frise the object
+     5. Object.seil() -------- this will seil the object 
+      
+
+6. Functions ----- a function is a block of code that performs a specific task
+
+     syntax -- 
+     function functionName(){
+
+     }
+     
+     Types of Function
+
+     1. named function or function defination or simple function
+     2. arrow function
+     3. Anonymous Function
+     4. function expression
+     5. Immediately Invoked Function Expression (IIFE)
 
